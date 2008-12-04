@@ -1,4 +1,13 @@
 encoding: UTF-8
+
+Requirements:
+
+    You need to install ibus-table first; if you want to integrate extra
+    Chinese phrases, you also need to install ibus-table-extraphrase
+    beforehand.
+
+Introduction to ZhengMa:
+
     在docs目录下附有8开的郑码简繁通用字根表，是当初中易公司免费提供到郑
 码爱好者论坛上的。
 
