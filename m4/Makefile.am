@@ -1,6 +1,6 @@
 # vim:set ts=4
 #
-# ibus-tables - The Tables engine for Input Bus
+# ibus-table-zhengma - ZhengMa for IBus Table
 #
 # Copyright (c) 2008-2008 Yu Yuwei <acevery@gmail.com>
 #

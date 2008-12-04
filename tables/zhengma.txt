@@ -3957,7 +3957,8 @@ gqx	砓	109000
 gqy	郁	19800000
 gqy	𥐜	0
 gqy	𨛤	0
-gra	兀	2370000
+gra	兀	1570000
+gra	兀	1550000
 grc	尪	844000
 grc	尫	66900
 grf	𡯐	0
@@ -59701,6 +59702,7 @@ lixl	𢄟	0
 lixm	帿	89300
 lixm	𪿔	0
 lixs	帗	559000
+lixs	𥄎	238
 lixs	𠬥	0
 lixw	㡥	4750
 lixy	幯	79100
@@ -91092,6 +91094,7 @@ smxw	𫎁	0
 smya	旗子	1130000
 smyd	訖	286000
 smyd	讫	1080000
+smyd	𧥷	87
 smyd	诱导	5030000
 smye	𧨮	0
 smyf	高等院校	6090000
@@ -91695,6 +91698,7 @@ soye	离异	6100000
 soyj	交加	5180000
 soyj	记分员	49700
 soym	效力	12900000
+soym	𠠼	97
 soyn	交费	6340000
 soyo	交办	3520000
 soyo	𣁃	0

@@ -70,3 +70,11 @@ m4/Makefile
 )
 
 AC_OUTPUT
+
+AC_MSG_RESULT([
+Build options:
+  Version                   $VERSION
+  Install prefix            $prefix
+  Integrate Extra Phrases   $enable_extra_phrases
+])
+
