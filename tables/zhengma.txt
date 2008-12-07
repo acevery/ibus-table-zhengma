@@ -8,6 +8,9 @@
 ### the COPYRIGHTS is belong to ZhongYi Inc.;
 ### CJK-A goucima is add by myself, granted as GPL.
 ### CJK-B, CJK-C character encodings are come from 一呜惊人 <ranglming@126.com>
+### This table use the 5-code-ZhengMa schema to encode phrases, which
+### make phrases above 2 characters more discreted. This method is
+### suggested by "郑码大师" in www.zmfans.cn/bbs
 ### The other parts of this table under GPL
 
 SCIM_Generic_Table_Phrase_Library_TEXT
