@@ -11,16 +11,7 @@
 ### This table use the 5-code-ZhengMa schema to encode phrases, which
 ### make phrases above 2 characters more discreted. This method is
 ### suggested by "郑码大师" in www.zmfans.cn/bbs
-### The other parts of this table under GPL
-
-SCIM_Generic_Table_Phrase_Library_TEXT
-VERSION_1_0
-
-### File header must not be modified
-### This file must be encoded into UTF-8.
-### Special thanks to ZhangWeiwu, who provide his own table to me to
-### redistribute
-### This table under GPL
+### The other parts of this table under LGPL
 
 SCIM_Generic_Table_Phrase_Library_TEXT
 VERSION_1_0
@@ -30,18 +21,21 @@ BEGIN_DEFINITION
 
 ### An unique id to distinguish this table among others.
 ### Use uuidgen to generate this kind of id.
-UUID = 67922af3-416f-9868-216e-1189cef3cf9b
+UUID = 67922aa3-416f-9868-2162-118fcef1c29b
 
 ### A unique number indicates the version of this file.
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
-SERIAL_NUMBER = 20081207
+SERIAL_NUMBER = 20090218
 
 ### ICON = @SCIM_ICONDIR@/zhengma.png
 ICON = zhengma.svg
 
 ### The default name of this table
 NAME = ZhengMa
+
+### Description
+DESCRIPTION = 郑码是郑易里教授一生不懈于汉字电子输入研究工作的结晶并由郑珑工程师完成后续的编码工作。是在郑易里教授提出五笔输入法思想后进一步深入研究后的成果。郑码非常特别但更成熟，因为它用的是双码的宏字根，字根更自然、更科学，上手后不易遗忘。如果你用过多种中文形码输入法的话，相信郑码会是你最后不二的选择。
 
 ### The local names of this table 
 NAME.zh_CN = 郑码
@@ -53,6 +47,9 @@ LANGUAGES = zh_CN,zh_HK,zh_TW
 
 AUTHOR = Yu Yuwei <yu-yuwei@gmail.com> 
 
+### License
+LICENSE = LGPL
+
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = CN
 
@@ -60,6 +57,9 @@ STATUS_PROMPT = CN
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyz
 
 MAX_KEY_LENGTH = 5
+
+### Keyboard Layout
+LAYOUT = us
 
 ### Use full width punctuation by default
 DEF_FULL_WIDTH_PUNCT = TRUE
@@ -5303,6 +5303,7 @@ kcf	棐	89900
 kci	蜚	931000
 kci	𧕿	0
 kcj	𩇬	0
+kcl	晴	0
 kcl	𥇖	0
 kco	暙	474000
 kcq	晴	46600000
@@ -9207,6 +9208,7 @@ sbm	诸	60500000
 sbn	讲	291000000
 sbo	誣	849000
 sbo	诬	1380000
+sbs	諸	0
 sbw	誌	71200000
 sbx	語	204000000
 sbx	语	234000000
@@ -15752,6 +15754,7 @@ bdji	𠁩	0
 bdjj	𠄸	0
 bdjj	𠄾	0
 bdjk	亜	9610000
+bdjk	福	0
 bdjk	𣈆	0
 bdjl	鬶	31000
 bdjl	鬹	22500
@@ -15778,6 +15781,7 @@ bdkg	𪥓	0
 bdkh	戩	164000
 bdki	𪠁	0
 bdkk	刯	23500
+bdkk	神	0
 bdkk	𠄵	0
 bdkk	𠒻	0
 bdkk	𠛐	0
@@ -15951,6 +15955,7 @@ bdte	㪴	3790
 bdte	𣂐	0
 bdtk	寺庙	4340000
 bdtr	二次	62000000
+bduc	祥	0
 bdug	二类	4230000
 bdug	頬	4110000
 bdug	颊	9150000
@@ -17129,6 +17134,7 @@ bmsc	𦒼	0
 bmse	攻读	4520000
 bmsm	𫆧	0
 bmso	𦒹	0
+bmsy	都	0
 bmte	𣂃	0
 bmtg	埠头	216000
 bmtr	塖	29800
@@ -66712,6 +66718,7 @@ odok	劍	19300000
 odok	𣲝	0
 odok	𤳋	0
 odol	俎	1230000
+odol	益	0
 odol	𠌈	0
 odol	𠕞	0
 odol	𡒪	0
@@ -68212,6 +68219,7 @@ oxaj	飼	2870000
 oxaj	餄	33400
 oxaj	饲	4000000
 oxaj	饸	90500
+oxaj	飼	0
 oxaj	𩝈	0
 oxaj	𩞰	0
 oxak	饖	20500
@@ -68633,6 +68641,7 @@ oxpn	饀	39700
 oxps	𩛃	0
 oxpx	飯	33800000
 oxpx	饭	72700000
+oxpx	飯	28600000
 oxpy	𩛞	0
 oxpy	𩜞	0
 oxpz	餒	994000
@@ -68783,6 +68792,7 @@ oxwy	餑	113000
 oxwy	館	160000000
 oxwy	饽	1260000
 oxwy	馆	193000000
+oxwy	館	0
 oxwy	𩚬	0
 oxwy	𩛓	0
 oxwz	𩛖	0
@@ -73579,6 +73589,7 @@ qmbr	狫	41400
 qmbr	𤝌	0
 qmbr	𤞵	0
 qmbr	𤠴	0
+qmbs	猪	0
 qmbu	㺚	5040
 qmbu	狭	5600000
 qmbu	獯	333000
@@ -81225,6 +81236,7 @@ suby	谈起	9070000
 suby	𨝯	0
 subz	䶒	3770
 suca	帝王	12200000
+sucl	靖	0
 suco	立春	1480000
 sucq	靖	25300000
 sucq	𤄯	0
@@ -83048,6 +83060,7 @@ tdyl	𠗠	0
 tdyl	𥁣	0
 tdys	瓷	19300000
 tdyu	凞	90500
+tdyu	凞	0
 tdyu	𠘑	0
 tdyu	𠘕	0
 tdyy	𠖰	0
@@ -83192,6 +83205,7 @@ tfxi	𤻇	0
 tfya	麻子	2060000
 tfyd	麻刀	45300
 tfyk	麻阳	360000
+tfyl	癩	475000
 tfzh	磨练	4280000
 tfzj	麻绳	690000
 tfzk	麻纱	330000
@@ -86506,6 +86520,7 @@ ufce	𥹢	0
 ufch	粻	890000
 ufci	𫃧	0
 ufck	𥹯	0
+ufcl	精	0
 ufcl	𥼃	0
 ufcm	𥼲	0
 ufcq	精	220000000
@@ -93938,6 +93953,7 @@ wbgk	𡮾	0
 wbgl	宣布	61800000
 wbgl	进而	17200000
 wbgs	空袭	2120000
+wbgs	塚	0
 wbgv	远在	7130000
 wbha	宣威	716000
 wbhb	运转	14000000
@@ -94643,6 +94659,7 @@ wdno	𡩟	0
 wdno	𧺁	0
 wdnq	𣪯	0
 wdnr	定货	1860000
+wdnr	鶴	7
 wdnr	𡨇	0
 wdnr	𡪆	0
 wdns	定位	59500000
@@ -96913,6 +96930,7 @@ wrrl	额角	735000
 wrrs	农贸	4090000
 wrrs	迻	82700
 wrrs	逸	33600000
+wrrs	逸	0
 wrrs	𨗧	0
 wrrz	𫑲	0
 wrrz	𫑷	0
@@ -103138,6 +103156,7 @@ yoxb	阶层	12100000
 yoxw	䧔	3400
 yoya	坠子	502000
 yoyd	𨸣	0
+yoyo	羽	0
 yoyv	除了	195000000
 yoyy	𫖍	0
 yozq	𨻔	0
