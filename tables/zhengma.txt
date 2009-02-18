@@ -48,7 +48,7 @@ LANGUAGES = zh_CN,zh_HK,zh_TW
 AUTHOR = Yu Yuwei <yu-yuwei@gmail.com> 
 
 ### License
-LICENSE = LGPL
+LICENSE = GPL-3
 
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = CN
