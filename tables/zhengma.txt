@@ -45,7 +45,7 @@ NAME.zh_TW = 鄭碼
 ### Supported languages of this table
 LANGUAGES = zh_CN,zh_HK,zh_TW
 
-AUTHOR = Yu Yuwei <yu-yuwei@gmail.com> 
+AUTHOR = Yu Yuwei <acevery@gmail.com> 
 
 ### License
 LICENSE = GPL-3
